@@ -1,5 +1,5 @@
 import csv
-filename = 'D:\\PyProject\\NoSQL\\pima-indians-diabetes.csv'
+filename = 'pima-indians-diabetes.csv'
 
 
 def loadCsv(filename):
