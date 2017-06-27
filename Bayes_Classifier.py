@@ -59,7 +59,7 @@ def summarizeByClass(dataset):
 	summarizes = {}
 	for classValue, instances in iter(separated.items()):
 		print(classValue, instances)
-		summarizes[classValue] = summarizes(instances)
+		summarizes[classValue] = summarize(instances)
 	return summarizes
 
 
